@@ -1,0 +1,141 @@
+/*# for id . for class*/
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+      background-image:linear-gradient(#232526,#414345);
+  }
+  
+  #navbar {
+      position: fixed;
+      background: #343434;
+      width: 100%;
+      top: 0;
+  }
+  
+  #navbar ul {
+      display: flex;
+      flex-direction: row-reverse;
+  }
+  
+  #navbar ul li {
+      padding: 19px;
+      list-style: none;
+  }
+  
+  #navbar ul li:hover {
+      background-color: orange;
+      color: white;
+      transition: background-color 0.5s;
+  }
+  
+  #navbar a {
+      text-decoration: none;
+      font-size: 30px;
+      color:#99FFFF;
+  }
+  
+  #welcome-section h1 {
+      text-align: center;
+      font-size: 70px;
+      padding-bottom: 0;
+      padding-top: 70px;
+      color:#CD5C5C;
+  }
+  
+  #welcome-section div {
+      font-size: 60px;
+      margin: 30px;
+  }
+  
+  #welcome-section {
+    padding-top: 10px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh;
+    color:#99FFFF;
+  }
+  
+  #left {
+      text-align: left;
+  }
+  
+  #right {
+      text-align: right;
+      float: top;
+  }
+  
+  #center {
+      text-align: center;
+  }
+  
+  #About {	
+      color: lightblue;
+      height:500px;
+  }
+  
+  #About p {
+      font-size: 20px;
+      text-align:center;
+      display:block;
+      margin:100px;
+      margin-top:0px;
+  }
+  
+  #About header{
+      font-size:40px;
+      font-weight: 40px;
+      color:#CD5C5C;
+  }
+  
+  #projects {
+      display:flex;
+      justify-content: space-evenly;
+      height: 500px;
+  }
+  
+  a {
+      text-decoration: none;
+      font-size: 20px;
+      text-align:center;
+      color:#99FFFF;
+  }
+  
+  h3{
+      font-size:40px;
+      color:#CD5C5C;
+      text-align:center;
+  }
+  
+  .project-title {
+      display: flex;
+      justify-content: center;
+  }
+
+  #projects figure{
+      vertical-align:auto;
+      text-align:center;
+  }
+  
+  #contact {
+      display: flex;
+      padding:50px;
+      justify-content: space-around;
+  }
+  
+  #contact a {
+      padding:50px;
+      box-shadow: 18px 22px 16px 6px rgba(0,0,0,0.73);
+  }
+  
+  #contact a:hover {
+      background-color: orange;
+      box-shadow: 18px 22px 16px 6px rgba(255,69,0,0.73);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

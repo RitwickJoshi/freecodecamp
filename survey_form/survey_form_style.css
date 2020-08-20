@@ -1,0 +1,38 @@
+body {
+	display:flex;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	position: relative;
+	background-image: linear-gradient(to right, #4ecdc4,#556270);
+	color: #f3f3f3;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.black-color {
+	background-image:
+    linear-gradient(
+      to right,#2c3e50, #4ca1af
+    );
+	opacity: 50%;
+	padding: 10px;
+	width: 350px;
+	align-items: center;
+	text-align: inherit;
+}
+
+input[type="text"], input[type="number"], input[type="email"],label{
+	width:300px;
+}
+
+input[type="submit"]:hover {
+	background-color:green;
+	color:white;
+}
+

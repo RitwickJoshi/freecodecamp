@@ -1,0 +1,86 @@
+/*&emsp;&emsp;&emsp; 3 tab spaces*/
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+      background-color: lightyellow;
+  }
+  
+  #navbar header {
+      display:block;
+      background-color:inherit;
+  }
+  
+  #navbar{
+      position:fixed;
+      min-width:250px;
+      left:0px;
+      width:300px;
+      height:100%;
+      border-right:solid black;
+  }
+  
+  header {
+      color: black;
+      margin:20px;
+      text-align:center;
+      font-size:30px;
+      font-weight:thin;
+      background-color:lightgrey;
+  }
+  
+  #main-doc header {
+      text-align:left;
+      margin:0px;
+  }
+  
+  #navbar ul {
+      background-color:lightgrey;
+      height:89%;
+      padding:10;
+      overflow-y: auto;
+      overflow-x: hidden;
+  }
+  
+  #navbar li {
+      color:darkblue;
+      border-top: 1px solid;
+      list-style:none;
+      position:relative;
+      width: 100%;
+  }
+  
+  #navbar a {
+      display: block;
+      padding: 15px 35px;
+      color:darkblue;
+      text-decoration: none;
+      cursor:pointer;
+  }
+  
+  #navbar ul li a:hover {
+      background-color: green;
+      color:white;
+  }
+  
+  #main-doc {
+      position:absolute;
+      padding:25px;
+      margin-left:320px;
+      margin-bottom: 112px;
+  }
+  
+  section {
+      padding:10px;
+  }
+  code {
+      display:block;
+      background-color:lightgrey;
+      line-height: 2;
+  }
+  @media only screen and (max-width: 700px) {
+    body {
+      background-color: lightblue;
+    }
+  }

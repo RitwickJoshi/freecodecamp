@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<center>
+			<h1 id="title" class='center-text'>Survey Form</h1>	
+			<p id='description' class='center-text'> This is a Short Survey form <br>Please fill this form it would be of great help<p>
+		</center>
+	</head>
+    <link rel="stylesheet" href="survey_form_style.css">
+	<body>
+		<div class='center-text'>
+			<div class="black-color">
+				
+				<form id="survey-form">
+					<label id='name-label'>
+						
+						Name:<br><input type="text" id='name' required placeholder="Enter Name"/>
+						
+					</label>
+						<br>
+					<label id='number-label'>
+						
+						Age:<br><input type="number" id='number' placeholder="Enter Age" required max=99 min=2/>
+						
+					</label>
+					<label id='email-label'>
+						<br>
+						Email:<br><input type="email" id='email' required placeholder="Enter Email"/>
+						
+					</label>
+					<label id='dropdown-menu'>
+						<br>
+						What's your occupation:
+						<select id='dropdown'>
+							<option>CS/IT Engineer</option>
+							<option>Network Engineer</option>
+							<option>Mechanical Engineer</option>
+							<option>Civil Engineer</option>
+							<option>Electronics Engineer</option>
+							<option>Electrical Engineer</option>
+							<option>Others</option>
+						</select>
+					</label>
+					
+					<label id='radio-button'>
+						<br>
+						Did you enjoyed here:
+						<input type="radio" name="radio" value="yes">yes
+						<input type="radio" name="radio" value="no">no
+					</label>
+					<label id='check-boxes'>
+						<br>
+						What more content would you like to see here:
+						<input type="checkbox" value="Videos">More Videos
+						<input type="checkbox" value="Audio">More Audio
+						<input type="checkbox" value="Hints">More Hints
+					</label>
+					<label id='Comments'>
+						<br>
+						Any Other Suggestions:<textarea id='suggestions' rows='4' cols='40'></textarea>
+					</label>
+					<label='submit-button'>
+						<br>
+						<input type="Submit" id='submit'>
+					</label>
+				</form>
+			</div>
+		</div>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	</body>
+</html>
